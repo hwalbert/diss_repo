@@ -1,0 +1,2783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_year" for="node" attr.name="year" attr.type="double"/>
+  <key id="v_milex" for="node" attr.name="milex" attr.type="double"/>
+  <key id="v_milper" for="node" attr.name="milper" attr.type="double"/>
+  <key id="v_irst" for="node" attr.name="irst" attr.type="double"/>
+  <key id="v_pec" for="node" attr.name="pec" attr.type="double"/>
+  <key id="v_tpop" for="node" attr.name="tpop" attr.type="double"/>
+  <key id="v_upop" for="node" attr.name="upop" attr.type="double"/>
+  <key id="v_cinc" for="node" attr.name="cinc" attr.type="double"/>
+  <key id="v_version" for="node" attr.name="version" attr.type="double"/>
+  <key id="v_milex_percap" for="node" attr.name="milex_percap" attr.type="double"/>
+  <key id="v_power" for="node" attr.name="power" attr.type="double"/>
+  <key id="v_irstlog" for="node" attr.name="irstlog" attr.type="double"/>
+  <key id="v_cincResized" for="node" attr.name="cincResized" attr.type="double"/>
+  <key id="v_StateNme" for="node" attr.name="StateNme" attr.type="string"/>
+  <key id="v_wealth" for="node" attr.name="wealth" attr.type="double"/>
+  <key id="e_AllianceLevel" for="edge" attr.name="AllianceLevel" attr.type="double"/>
+  <key id="e_YearsAllied" for="edge" attr.name="YearsAllied" attr.type="double"/>
+  <graph id="G" edgedefault="directed">
+    <node id="n0">
+      <data key="v_name">2</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">90000000</data>
+      <data key="v_milper">12123</data>
+      <data key="v_irst">72304</data>
+      <data key="v_pec">1219068</data>
+      <data key="v_tpop">139928</data>
+      <data key="v_upop">39100</data>
+      <data key="v_cinc">0.3838635</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">643.187925218684</data>
+      <data key="v_power">246.896368132182</data>
+      <data key="v_irstlog">11.1886347316511</data>
+      <data key="v_cincResized">1</data>
+      <data key="v_StateNme">United States of America</data>
+      <data key="v_wealth">72304</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">20</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">2664365</data>
+      <data key="v_milper">801</data>
+      <data key="v_irst">2611</data>
+      <data key="v_pec">56093</data>
+      <data key="v_tpop">12072</data>
+      <data key="v_upop">2845</data>
+      <data key="v_cinc">0.0170419</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">220.706179589132</data>
+      <data key="v_power">3.76125264194003</data>
+      <data key="v_irstlog">7.86748856869913</data>
+      <data key="v_cincResized">0.0443957292110346</data>
+      <data key="v_StateNme">Canada</data>
+      <data key="v_wealth">2611</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">40</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">-2147483648</data>
+      <data key="v_milper">21</data>
+      <data key="v_irst">0</data>
+      <data key="v_pec">74</data>
+      <data key="v_tpop">4930</data>
+      <data key="v_upop">1199</data>
+      <data key="v_cinc">0.0017085</data>
+      <data key="v_version">2011</data>
+      <data key="v_irstlog">0</data>
+      <data key="v_cincResized">0.00445080087062198</data>
+      <data key="v_StateNme">Cuba</data>
+      <data key="v_wealth">0</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">41</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">-2147483648</data>
+      <data key="v_milper">5</data>
+      <data key="v_irst">0</data>
+      <data key="v_pec">0</data>
+      <data key="v_tpop">3090</data>
+      <data key="v_upop">127</data>
+      <data key="v_cinc">0.0005089</data>
+      <data key="v_version">2011</data>
+      <data key="v_irstlog">0</data>
+      <data key="v_cincResized">0.00132573167284725</data>
+      <data key="v_StateNme">Haiti</data>
+      <data key="v_wealth">0</data>
+    </node>
+    <node id="n4">
+      <data key="v_name">42</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">3574</data>
+      <data key="v_milper">4</data>
+      <data key="v_irst">0</data>
+      <data key="v_pec">4</data>
+      <data key="v_tpop">1980</data>
+      <data key="v_upop">166</data>
+      <data key="v_cinc">0.0003382</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">1.80505050505051</data>
+      <data key="v_power">0.000610468080808081</data>
+      <data key="v_irstlog">0</data>
+      <data key="v_cincResized">0.000881042349689408</data>
+      <data key="v_StateNme">Dominican Republic</data>
+      <data key="v_wealth">0</data>
+    </node>
+    <node id="n5">
+      <data key="v_name">70</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">34979</data>
+      <data key="v_milper">-2147483648</data>
+      <data key="v_irst">230</data>
+      <data key="v_pec">9916</data>
+      <data key="v_tpop">22230</data>
+      <data key="v_upop">2794</data>
+      <data key="v_cinc">0.0064862</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">1.57350427350427</data>
+      <data key="v_power">0.0102060634188034</data>
+      <data key="v_irstlog">5.4380793089232</data>
+      <data key="v_cincResized">0.0168971522429197</data>
+      <data key="v_StateNme">Mexico</data>
+      <data key="v_wealth">230</data>
+    </node>
+    <node id="n6">
+      <data key="v_name">90</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">-2147483648</data>
+      <data key="v_milper">-2147483648</data>
+      <data key="v_irst">0</data>
+      <data key="v_pec">4</data>
+      <data key="v_tpop">2440</data>
+      <data key="v_upop">221</data>
+      <data key="v_cinc">0.0006107</data>
+      <data key="v_version">2011</data>
+      <data key="v_irstlog">0</data>
+      <data key="v_cincResized">0.00159093010927061</data>
+      <data key="v_StateNme">Guatemala</data>
+      <data key="v_wealth">0</data>
+    </node>
+    <node id="n7">
+      <data key="v_name">91</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">1217</data>
+      <data key="v_milper">-2147483648</data>
+      <data key="v_irst">0</data>
+      <data key="v_pec">0</data>
+      <data key="v_tpop">1260</data>
+      <data key="v_upop">0</data>
+      <data key="v_cinc">0.0001577</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">0.965873015873016</data>
+      <data key="v_power">0.000152318174603175</data>
+      <data key="v_irstlog">0</data>
+      <data key="v_cincResized">0.0004108231181136</data>
+      <data key="v_StateNme">Honduras</data>
+      <data key="v_wealth">0</data>
+    </node>
+    <node id="n8">
+      <data key="v_name">92</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">1801</data>
+      <data key="v_milper">-2147483648</data>
+      <data key="v_irst">0</data>
+      <data key="v_pec">0</data>
+      <data key="v_tpop">1740</data>
+      <data key="v_upop">0</data>
+      <data key="v_cinc">0.000218</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">1.03505747126437</data>
+      <data key="v_power">0.000225642528735632</data>
+      <data key="v_irstlog">0</data>
+      <data key="v_cincResized">0.000567910207664964</data>
+      <data key="v_StateNme">El Salvador</data>
+      <data key="v_wealth">0</data>
+    </node>
+    <node id="n9">
+      <data key="v_name">93</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">-2147483648</data>
+      <data key="v_milper">-2147483648</data>
+      <data key="v_irst">0</data>
+      <data key="v_pec">0</data>
+      <data key="v_tpop">923</data>
+      <data key="v_upop">0</data>
+      <data key="v_cinc">0.0001428</data>
+      <data key="v_version">2011</data>
+      <data key="v_irstlog">0</data>
+      <data key="v_cincResized">0.000372007236947509</data>
+      <data key="v_StateNme">Nicaragua</data>
+      <data key="v_wealth">0</data>
+    </node>
+    <node id="n10">
+      <data key="v_name">94</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">1368</data>
+      <data key="v_milper">1</data>
+      <data key="v_irst">0</data>
+      <data key="v_pec">16</data>
+      <data key="v_tpop">700</data>
+      <data key="v_upop">0</data>
+      <data key="v_cinc">7.83e-005</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">1.95428571428571</data>
+      <data key="v_power">0.000153020571428571</data>
+      <data key="v_irstlog">0</data>
+      <data key="v_cincResized">0.000203978758074159</data>
+      <data key="v_StateNme">Costa Rica</data>
+      <data key="v_wealth">0</data>
+    </node>
+    <node id="n11">
+      <data key="v_name">95</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">-2147483648</data>
+      <data key="v_milper">0</data>
+      <data key="v_irst">0</data>
+      <data key="v_pec">7</data>
+      <data key="v_tpop">703</data>
+      <data key="v_upop">0</data>
+      <data key="v_cinc">8.77e-005</data>
+      <data key="v_version">2011</data>
+      <data key="v_irstlog">0</data>
+      <data key="v_cincResized">0.000228466629413841</data>
+      <data key="v_StateNme">Panama</data>
+      <data key="v_wealth">0</data>
+    </node>
+    <node id="n12">
+      <data key="v_name">100</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">14857</data>
+      <data key="v_milper">11</data>
+      <data key="v_irst">0</data>
+      <data key="v_pec">2209</data>
+      <data key="v_tpop">10270</data>
+      <data key="v_upop">1494</data>
+      <data key="v_cinc">0.0023376</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">1.44664070107108</data>
+      <data key="v_power">0.00338166730282376</data>
+      <data key="v_irstlog">0</data>
+      <data key="v_cincResized">0.00608966468549367</data>
+      <data key="v_StateNme">Colombia</data>
+      <data key="v_wealth">0</data>
+    </node>
+    <node id="n13">
+      <data key="v_name">101</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">13743</data>
+      <data key="v_milper">2</data>
+      <data key="v_irst">0</data>
+      <data key="v_pec">3859</data>
+      <data key="v_tpop">4270</data>
+      <data key="v_upop">457</data>
+      <data key="v_cinc">0.0010924</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">3.21850117096019</data>
+      <data key="v_power">0.00351589067915691</data>
+      <data key="v_irstlog">0</data>
+      <data key="v_cincResized">0.00284580326079453</data>
+      <data key="v_StateNme">Venezuela</data>
+      <data key="v_wealth">0</data>
+    </node>
+    <node id="n14">
+      <data key="v_name">130</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">5074</data>
+      <data key="v_milper">-2147483648</data>
+      <data key="v_irst">0</data>
+      <data key="v_pec">586</data>
+      <data key="v_tpop">2780</data>
+      <data key="v_upop">390</data>
+      <data key="v_cinc">0.000736</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">1.82517985611511</data>
+      <data key="v_power">0.00134333237410072</data>
+      <data key="v_irstlog">0</data>
+      <data key="v_cincResized">0.00191734822404318</data>
+      <data key="v_StateNme">Ecuador</data>
+      <data key="v_wealth">0</data>
+    </node>
+    <node id="n15">
+      <data key="v_name">135</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">18261</data>
+      <data key="v_milper">32</data>
+      <data key="v_irst">0</data>
+      <data key="v_pec">1083</data>
+      <data key="v_tpop">7290</data>
+      <data key="v_upop">656</data>
+      <data key="v_cinc">0.0014238</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">2.50493827160494</data>
+      <data key="v_power">0.00356653111111111</data>
+      <data key="v_irstlog">0</data>
+      <data key="v_cincResized">0.0037091309801531</data>
+      <data key="v_StateNme">Peru</data>
+      <data key="v_wealth">0</data>
+    </node>
+    <node id="n16">
+      <data key="v_name">140</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">171180</data>
+      <data key="v_milper">-2147483648</data>
+      <data key="v_irst">206</data>
+      <data key="v_pec">4400</data>
+      <data key="v_tpop">46215</data>
+      <data key="v_upop">5243</data>
+      <data key="v_cinc">0.0111407</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">3.70399221032132</data>
+      <data key="v_power">0.0412650660175268</data>
+      <data key="v_irstlog">5.32787616878958</data>
+      <data key="v_cincResized">0.0290225561951058</data>
+      <data key="v_StateNme">Brazil</data>
+      <data key="v_wealth">206</data>
+    </node>
+    <node id="n17">
+      <data key="v_name">145</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">-2147483648</data>
+      <data key="v_milper">10</data>
+      <data key="v_irst">0</data>
+      <data key="v_pec">88</data>
+      <data key="v_tpop">2850</data>
+      <data key="v_upop">308</data>
+      <data key="v_cinc">0.0006594</data>
+      <data key="v_version">2011</data>
+      <data key="v_irstlog">0</data>
+      <data key="v_cincResized">0.00171779812355173</data>
+      <data key="v_StateNme">Bolivia</data>
+      <data key="v_wealth">0</data>
+    </node>
+    <node id="n18">
+      <data key="v_name">150</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">-2147483648</data>
+      <data key="v_milper">6</data>
+      <data key="v_irst">0</data>
+      <data key="v_pec">2</data>
+      <data key="v_tpop">1250</data>
+      <data key="v_upop">166</data>
+      <data key="v_cinc">0.000318</data>
+      <data key="v_version">2011</data>
+      <data key="v_irstlog">0</data>
+      <data key="v_cincResized">0.000828419477236049</data>
+      <data key="v_StateNme">Paraguay</data>
+      <data key="v_wealth">0</data>
+    </node>
+    <node id="n19">
+      <data key="v_name">155</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">87764</data>
+      <data key="v_milper">-2147483648</data>
+      <data key="v_irst">0</data>
+      <data key="v_pec">2189</data>
+      <data key="v_tpop">5540</data>
+      <data key="v_upop">903</data>
+      <data key="v_cinc">0.00178</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">15.8418772563177</data>
+      <data key="v_power">0.0281985415162455</data>
+      <data key="v_irstlog">0</data>
+      <data key="v_cincResized">0.0046370649983653</data>
+      <data key="v_StateNme">Chile</data>
+      <data key="v_wealth">0</data>
+    </node>
+    <node id="n20">
+      <data key="v_name">160</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">299824</data>
+      <data key="v_milper">-2147483648</data>
+      <data key="v_irst">141</data>
+      <data key="v_pec">7002</data>
+      <data key="v_tpop">15400</data>
+      <data key="v_upop">5598</data>
+      <data key="v_cinc">0.0079482</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">19.4690909090909</data>
+      <data key="v_power">0.154744228363636</data>
+      <data key="v_irstlog">4.94875989037817</data>
+      <data key="v_cincResized">0.0207057977640489</data>
+      <data key="v_StateNme">Argentina</data>
+      <data key="v_wealth">141</data>
+    </node>
+    <node id="n21">
+      <data key="v_name">165</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">-2147483648</data>
+      <data key="v_milper">-2147483648</data>
+      <data key="v_irst">0</data>
+      <data key="v_pec">40</data>
+      <data key="v_tpop">2080</data>
+      <data key="v_upop">677</data>
+      <data key="v_cinc">0.0010393</data>
+      <data key="v_version">2011</data>
+      <data key="v_irstlog">0</data>
+      <data key="v_cincResized">0.00270747283865228</data>
+      <data key="v_StateNme">Uruguay</data>
+      <data key="v_wealth">0</data>
+    </node>
+    <node id="n22">
+      <data key="v_name">200</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">17002048</data>
+      <data key="v_milper">5090</data>
+      <data key="v_irst">12014</data>
+      <data key="v_pec">210425</data>
+      <data key="v_tpop">49182</data>
+      <data key="v_upop">18705</data>
+      <data key="v_cinc">0.0879904</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">345.696555650441</data>
+      <data key="v_power">30.4179782103046</data>
+      <data key="v_irstlog">9.39382791541011</data>
+      <data key="v_cincResized">0.229223148332676</data>
+      <data key="v_StateNme">United Kingdom</data>
+      <data key="v_wealth">12014</data>
+    </node>
+    <node id="n23">
+      <data key="v_name">205</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">34923</data>
+      <data key="v_milper">11</data>
+      <data key="v_irst">0</data>
+      <data key="v_pec">994</data>
+      <data key="v_tpop">2950</data>
+      <data key="v_upop">503</data>
+      <data key="v_cinc">0.0008134</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">11.8383050847458</data>
+      <data key="v_power">0.0096292773559322</data>
+      <data key="v_irstlog">0</data>
+      <data key="v_cincResized">0.0021189823986912</data>
+      <data key="v_StateNme">Ireland</data>
+      <data key="v_wealth">0</data>
+    </node>
+    <node id="n24">
+      <data key="v_name">210</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">193451</data>
+      <data key="v_milper">87</data>
+      <data key="v_irst">118</data>
+      <data key="v_pec">5391</data>
+      <data key="v_tpop">9260</data>
+      <data key="v_upop">2604</data>
+      <data key="v_cinc">0.0038845</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">20.8910367170626</data>
+      <data key="v_power">0.0811512321274298</data>
+      <data key="v_irstlog">4.77068462446567</data>
+      <data key="v_cincResized">0.0101194825764888</data>
+      <data key="v_StateNme">Netherlands</data>
+      <data key="v_wealth">118</data>
+    </node>
+    <node id="n25">
+      <data key="v_name">211</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">561299</data>
+      <data key="v_milper">80</data>
+      <data key="v_irst">749</data>
+      <data key="v_pec">16234</data>
+      <data key="v_tpop">8344</data>
+      <data key="v_upop">913</data>
+      <data key="v_cinc">0.0047496</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">67.2697746883989</data>
+      <data key="v_power">0.319504521860019</data>
+      <data key="v_irstlog">6.61873898351722</data>
+      <data key="v_cincResized">0.0123731482675482</data>
+      <data key="v_StateNme">Belgium</data>
+      <data key="v_wealth">749</data>
+    </node>
+    <node id="n26">
+      <data key="v_name">212</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">1758</data>
+      <data key="v_milper">-2147483648</data>
+      <data key="v_irst">259</data>
+      <data key="v_pec">551</data>
+      <data key="v_tpop">283</data>
+      <data key="v_upop">0</data>
+      <data key="v_cinc">0.0005187</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">6.21201413427562</data>
+      <data key="v_power">0.00322217173144876</data>
+      <data key="v_irstlog">5.55682806169954</data>
+      <data key="v_cincResized">0.00135126158126522</data>
+      <data key="v_StateNme">Luxembourg</data>
+      <data key="v_wealth">259</data>
+    </node>
+    <node id="n27">
+      <data key="v_name">220</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">1230509</data>
+      <data key="v_milper">578</data>
+      <data key="v_irst">1661</data>
+      <data key="v_pec">45663</data>
+      <data key="v_tpop">39700</data>
+      <data key="v_upop">6551</data>
+      <data key="v_cinc">0.0179454</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">30.9951889168766</data>
+      <data key="v_power">0.556221063188917</data>
+      <data key="v_irstlog">7.4151751096133</data>
+      <data key="v_cincResized">0.0467494304616094</data>
+      <data key="v_StateNme">France</data>
+      <data key="v_wealth">1661</data>
+    </node>
+    <node id="n28">
+      <data key="v_name">225</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">85296</data>
+      <data key="v_milper">525</data>
+      <data key="v_irst">107</data>
+      <data key="v_pec">1463</data>
+      <data key="v_tpop">4412</data>
+      <data key="v_upop">889</data>
+      <data key="v_cinc">0.0031389</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">19.3327289211242</data>
+      <data key="v_power">0.0606835028105168</data>
+      <data key="v_irstlog">4.67282883446191</data>
+      <data key="v_cincResized">0.00817712546256677</data>
+      <data key="v_StateNme">Switzerland</data>
+      <data key="v_wealth">107</data>
+    </node>
+    <node id="n29">
+      <data key="v_name">230</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">119722</data>
+      <data key="v_milper">477</data>
+      <data key="v_irst">576</data>
+      <data key="v_pec">12579</data>
+      <data key="v_tpop">26800</data>
+      <data key="v_upop">6023</data>
+      <data key="v_cinc">0.0104721</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">4.46723880597015</data>
+      <data key="v_power">0.0467813715</data>
+      <data key="v_irstlog">6.35610766069589</data>
+      <data key="v_cincResized">0.0272807912187535</data>
+      <data key="v_StateNme">Spain</data>
+      <data key="v_wealth">576</data>
+    </node>
+    <node id="n30">
+      <data key="v_name">235</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">46023</data>
+      <data key="v_milper">-2147483648</data>
+      <data key="v_irst">1</data>
+      <data key="v_pec">1254</data>
+      <data key="v_tpop">8050</data>
+      <data key="v_upop">1024</data>
+      <data key="v_cinc">0.0020458</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">5.71714285714286</data>
+      <data key="v_power">0.0116961308571429</data>
+      <data key="v_irstlog">0</data>
+      <data key="v_cincResized">0.00532949863688525</data>
+      <data key="v_StateNme">Portugal</data>
+      <data key="v_wealth">1</data>
+    </node>
+    <node id="n31">
+      <data key="v_name">255</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">10648000</data>
+      <data key="v_milper">5300</data>
+      <data key="v_irst">10000</data>
+      <data key="v_pec">133062</data>
+      <data key="v_tpop">89697</data>
+      <data key="v_upop">23627</data>
+      <data key="v_cinc">0.0798766</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">118.710770705821</data>
+      <data key="v_power">9.48221274736056</data>
+      <data key="v_irstlog">9.21034037197618</data>
+      <data key="v_cincResized">0.208085947218217</data>
+      <data key="v_StateNme">Germany</data>
+      <data key="v_wealth">10000</data>
+    </node>
+    <node id="n32">
+      <data key="v_name">290</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">1789566</data>
+      <data key="v_milper">197</data>
+      <data key="v_irst">488</data>
+      <data key="v_pec">20479</data>
+      <data key="v_tpop">24182</data>
+      <data key="v_upop">3187</data>
+      <data key="v_cinc">0.0097796</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">74.0040526011083</data>
+      <data key="v_power">0.723730032817798</data>
+      <data key="v_irstlog">6.19031540585315</data>
+      <data key="v_cincResized">0.0254767645269738</data>
+      <data key="v_StateNme">Poland</data>
+      <data key="v_wealth">488</data>
+    </node>
+    <node id="n33">
+      <data key="v_name">310</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">-2147483648</data>
+      <data key="v_milper">-2147483648</data>
+      <data key="v_irst">129</data>
+      <data key="v_pec">4048</data>
+      <data key="v_tpop">9024</data>
+      <data key="v_upop">1384</data>
+      <data key="v_cinc">0.0036055</data>
+      <data key="v_version">2011</data>
+      <data key="v_irstlog">4.85981240436167</data>
+      <data key="v_cincResized">0.00939266171438545</data>
+      <data key="v_StateNme">Hungary</data>
+      <data key="v_wealth">129</data>
+    </node>
+    <node id="n34">
+      <data key="v_name">315</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">305677</data>
+      <data key="v_milper">250</data>
+      <data key="v_irst">993</data>
+      <data key="v_pec">21491</data>
+      <data key="v_tpop">14150</data>
+      <data key="v_upop">1641</data>
+      <data key="v_cinc">0.0068648</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">21.6026148409894</data>
+      <data key="v_power">0.148297630360424</data>
+      <data key="v_irstlog">6.90073066404517</data>
+      <data key="v_cincResized">0.0178834403375158</data>
+      <data key="v_StateNme">Czechoslovakia</data>
+      <data key="v_wealth">993</data>
+    </node>
+    <node id="n35">
+      <data key="v_name">325</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">305412</data>
+      <data key="v_milper">276</data>
+      <data key="v_irst">395</data>
+      <data key="v_pec">1882</data>
+      <data key="v_tpop">45090</data>
+      <data key="v_upop">8799</data>
+      <data key="v_cinc">0.0127712</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">6.77338656021291</data>
+      <data key="v_power">0.0865042744377911</data>
+      <data key="v_irstlog">5.97888576490112</data>
+      <data key="v_cincResized">0.0332701598354623</data>
+      <data key="v_StateNme">Italy</data>
+      <data key="v_wealth">395</data>
+    </node>
+    <node id="n36">
+      <data key="v_name">339</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">10254</data>
+      <data key="v_milper">60</data>
+      <data key="v_irst">0</data>
+      <data key="v_pec">197</data>
+      <data key="v_tpop">1122</data>
+      <data key="v_upop">0</data>
+      <data key="v_cinc">0.0003373</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">9.13903743315508</data>
+      <data key="v_power">0.00308259732620321</data>
+      <data key="v_irstlog">0</data>
+      <data key="v_cincResized">0.000878697766263268</data>
+      <data key="v_StateNme">Albania</data>
+      <data key="v_wealth">0</data>
+    </node>
+    <node id="n37">
+      <data key="v_name">345</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">284155</data>
+      <data key="v_milper">156</data>
+      <data key="v_irst">67</data>
+      <data key="v_pec">2006</data>
+      <data key="v_tpop">14840</data>
+      <data key="v_upop">853</data>
+      <data key="v_cinc">0.0032199</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">19.1479110512129</data>
+      <data key="v_power">0.0616543587938005</data>
+      <data key="v_irstlog">4.20469261939097</data>
+      <data key="v_cincResized">0.00838813797091935</data>
+      <data key="v_StateNme">Yugoslavia</data>
+      <data key="v_wealth">67</data>
+    </node>
+    <node id="n38">
+      <data key="v_name">350</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">86098</data>
+      <data key="v_milper">117</data>
+      <data key="v_irst">12</data>
+      <data key="v_pec">477</data>
+      <data key="v_tpop">7300</data>
+      <data key="v_upop">899</data>
+      <data key="v_cinc">0.0019176</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">11.7942465753425</data>
+      <data key="v_power">0.0226166472328767</data>
+      <data key="v_irstlog">2.484906649788</data>
+      <data key="v_cincResized">0.00499552575329512</data>
+      <data key="v_StateNme">Greece</data>
+      <data key="v_wealth">12</data>
+    </node>
+    <node id="n39">
+      <data key="v_name">355</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">-2147483648</data>
+      <data key="v_milper">39</data>
+      <data key="v_irst">0</data>
+      <data key="v_pec">2550</data>
+      <data key="v_tpop">6940</data>
+      <data key="v_upop">357</data>
+      <data key="v_cinc">0.0015557</data>
+      <data key="v_version">2011</data>
+      <data key="v_irstlog">0</data>
+      <data key="v_cincResized">0.00405274270671736</data>
+      <data key="v_StateNme">Bulgaria</data>
+      <data key="v_wealth">0</data>
+    </node>
+    <node id="n40">
+      <data key="v_name">360</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">-2147483648</data>
+      <data key="v_milper">119</data>
+      <data key="v_irst">118</data>
+      <data key="v_pec">9637</data>
+      <data key="v_tpop">13680</data>
+      <data key="v_upop">1112</data>
+      <data key="v_cinc">0.0042111</data>
+      <data key="v_version">2011</data>
+      <data key="v_irstlog">4.77068462446567</data>
+      <data key="v_cincResized">0.0109703058509079</data>
+      <data key="v_StateNme">Romania</data>
+      <data key="v_wealth">118</data>
+    </node>
+    <node id="n41">
+      <data key="v_name">365</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">8589076</data>
+      <data key="v_milper">12500</data>
+      <data key="v_irst">12252</data>
+      <data key="v_pec">151257</data>
+      <data key="v_tpop">177300</data>
+      <data key="v_upop">29189</data>
+      <data key="v_cinc">0.1182072</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">48.4437450648618</data>
+      <data key="v_power">5.72639946163113</data>
+      <data key="v_irstlog">9.41344446795267</data>
+      <data key="v_cincResized">0.307940713300431</data>
+      <data key="v_StateNme">Russia</data>
+      <data key="v_wealth">12252</data>
+    </node>
+    <node id="n42">
+      <data key="v_name">375</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">105978</data>
+      <data key="v_milper">32</data>
+      <data key="v_irst">86</data>
+      <data key="v_pec">511</data>
+      <data key="v_tpop">3820</data>
+      <data key="v_upop">328</data>
+      <data key="v_cinc">0.0010115</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">27.7429319371728</data>
+      <data key="v_power">0.0280619756544503</data>
+      <data key="v_irstlog">4.45434729625351</data>
+      <data key="v_cincResized">0.00263505126171152</data>
+      <data key="v_StateNme">Finland</data>
+      <data key="v_wealth">86</data>
+    </node>
+    <node id="n43">
+      <data key="v_name">380</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">216314</data>
+      <data key="v_milper">400</data>
+      <data key="v_irst">1203</data>
+      <data key="v_pec">2908</data>
+      <data key="v_tpop">6640</data>
+      <data key="v_upop">1283</data>
+      <data key="v_cinc">0.0050214</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">32.5774096385542</data>
+      <data key="v_power">0.163584204759036</data>
+      <data key="v_irstlog">7.09257371597468</data>
+      <data key="v_cincResized">0.0130812124622424</data>
+      <data key="v_StateNme">Sweden</data>
+      <data key="v_wealth">1203</data>
+    </node>
+    <node id="n44">
+      <data key="v_name">385</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">110840</data>
+      <data key="v_milper">4</data>
+      <data key="v_irst">37</data>
+      <data key="v_pec">2863</data>
+      <data key="v_tpop">3075</data>
+      <data key="v_upop">339</data>
+      <data key="v_cinc">0.0009782</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">36.0455284552846</data>
+      <data key="v_power">0.0352597359349594</data>
+      <data key="v_irstlog">3.61091791264422</data>
+      <data key="v_cincResized">0.00254830167494435</data>
+      <data key="v_StateNme">Norway</data>
+      <data key="v_wealth">37</data>
+    </node>
+    <node id="n45">
+      <data key="v_name">390</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">47691</data>
+      <data key="v_milper">13</data>
+      <data key="v_irst">46</data>
+      <data key="v_pec">4134</data>
+      <data key="v_tpop">4040</data>
+      <data key="v_upop">839</data>
+      <data key="v_cinc">0.0014976</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">11.804702970297</data>
+      <data key="v_power">0.0176787231683168</data>
+      <data key="v_irstlog">3.8286413964891</data>
+      <data key="v_cincResized">0.00390138682109656</data>
+      <data key="v_StateNme">Denmark</data>
+      <data key="v_wealth">46</data>
+    </node>
+    <node id="n46">
+      <data key="v_name">395</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">0</data>
+      <data key="v_milper">0</data>
+      <data key="v_irst">0</data>
+      <data key="v_pec">10</data>
+      <data key="v_tpop">129</data>
+      <data key="v_upop">0</data>
+      <data key="v_cinc">1.41e-005</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">0</data>
+      <data key="v_power">0</data>
+      <data key="v_irstlog">0</data>
+      <data key="v_cincResized">3.67318070095229e-005</data>
+      <data key="v_StateNme">Iceland</data>
+      <data key="v_wealth">0</data>
+    </node>
+    <node id="n47">
+      <data key="v_name">450</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">-2147483648</data>
+      <data key="v_milper">5</data>
+      <data key="v_irst">0</data>
+      <data key="v_pec">1</data>
+      <data key="v_tpop">606</data>
+      <data key="v_upop">0</data>
+      <data key="v_cinc">9.45e-005</data>
+      <data key="v_version">2011</data>
+      <data key="v_irstlog">0</data>
+      <data key="v_cincResized">0.000246181259744675</data>
+      <data key="v_StateNme">Liberia</data>
+      <data key="v_wealth">0</data>
+    </node>
+    <node id="n48">
+      <data key="v_name">530</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">-2147483648</data>
+      <data key="v_milper">-2147483648</data>
+      <data key="v_irst">0</data>
+      <data key="v_pec">3</data>
+      <data key="v_tpop">17202</data>
+      <data key="v_upop">240</data>
+      <data key="v_cinc">0.0029151</data>
+      <data key="v_version">2011</data>
+      <data key="v_irstlog">0</data>
+      <data key="v_cincResized">0.00759410571726668</data>
+      <data key="v_StateNme">Ethiopia</data>
+      <data key="v_wealth">0</data>
+    </node>
+    <node id="n49">
+      <data key="v_name">560</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">206537</data>
+      <data key="v_milper">-2147483648</data>
+      <data key="v_irst">536</data>
+      <data key="v_pec">24578</data>
+      <data key="v_tpop">11265</data>
+      <data key="v_upop">1766</data>
+      <data key="v_cinc">0.006418</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">18.3343985796716</data>
+      <data key="v_power">0.117670170084332</data>
+      <data key="v_irstlog">6.2841341610708</data>
+      <data key="v_cincResized">0.0167194849210722</data>
+      <data key="v_StateNme">South Africa</data>
+      <data key="v_wealth">536</data>
+    </node>
+    <node id="n50">
+      <data key="v_name">630</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">30822</data>
+      <data key="v_milper">90</data>
+      <data key="v_irst">0</data>
+      <data key="v_pec">2452</data>
+      <data key="v_tpop">15215</data>
+      <data key="v_upop">1749</data>
+      <data key="v_cinc">0.00332</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">2.02576404863621</data>
+      <data key="v_power">0.00672553664147223</data>
+      <data key="v_irstlog">0</data>
+      <data key="v_cincResized">0.00864890774976</data>
+      <data key="v_StateNme">Iran</data>
+      <data key="v_wealth">0</data>
+    </node>
+    <node id="n51">
+      <data key="v_name">640</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">396678</data>
+      <data key="v_milper">514</data>
+      <data key="v_irst">64</data>
+      <data key="v_pec">2762</data>
+      <data key="v_tpop">18729</data>
+      <data key="v_upop">1386</data>
+      <data key="v_cinc">0.0053396</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">21.1798814672433</data>
+      <data key="v_power">0.113092095082492</data>
+      <data key="v_irstlog">4.15888308335967</data>
+      <data key="v_cincResized">0.0139101529580176</data>
+      <data key="v_StateNme">Turkey</data>
+      <data key="v_wealth">64</data>
+    </node>
+    <node id="n52">
+      <data key="v_name">645</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">-2147483648</data>
+      <data key="v_milper">-2147483648</data>
+      <data key="v_irst">0</data>
+      <data key="v_pec">6586</data>
+      <data key="v_tpop">4611</data>
+      <data key="v_upop">519</data>
+      <data key="v_cinc">0.0020499</data>
+      <data key="v_version">2011</data>
+      <data key="v_irstlog">0</data>
+      <data key="v_cincResized">0.00534017951693766</data>
+      <data key="v_StateNme">Iraq</data>
+      <data key="v_wealth">0</data>
+    </node>
+    <node id="n53">
+      <data key="v_name">651</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">24598</data>
+      <data key="v_milper">-2147483648</data>
+      <data key="v_irst">0</data>
+      <data key="v_pec">2129</data>
+      <data key="v_tpop">18460</data>
+      <data key="v_upop">3349</data>
+      <data key="v_cinc">0.0053445</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">1.33250270855905</data>
+      <data key="v_power">0.00712156072589383</data>
+      <data key="v_irstlog">0</data>
+      <data key="v_cincResized">0.0139229179122266</data>
+      <data key="v_StateNme">Egypt</data>
+      <data key="v_wealth">0</data>
+    </node>
+    <node id="n54">
+      <data key="v_name">670</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">-2147483648</data>
+      <data key="v_milper">4</data>
+      <data key="v_irst">0</data>
+      <data key="v_pec">4104</data>
+      <data key="v_tpop">2866</data>
+      <data key="v_upop">188</data>
+      <data key="v_cinc">0.0009225</data>
+      <data key="v_version">2011</data>
+      <data key="v_irstlog">0</data>
+      <data key="v_cincResized">0.00240319801179325</data>
+      <data key="v_StateNme">Saudi Arabia</data>
+      <data key="v_wealth">0</data>
+    </node>
+    <node id="n55">
+      <data key="v_name">678</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">-2147483648</data>
+      <data key="v_milper">18</data>
+      <data key="v_irst">0</data>
+      <data key="v_pec">0</data>
+      <data key="v_tpop">3096</data>
+      <data key="v_upop">0</data>
+      <data key="v_cinc">0.000453</data>
+      <data key="v_version">2011</data>
+      <data key="v_irstlog">0</data>
+      <data key="v_cincResized">0.00118010699115701</data>
+      <data key="v_StateNme">Yemen Arab Republic</data>
+      <data key="v_wealth">0</data>
+    </node>
+    <node id="n56">
+      <data key="v_name">700</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">-2147483648</data>
+      <data key="v_milper">90</data>
+      <data key="v_irst">0</data>
+      <data key="v_pec">0</data>
+      <data key="v_tpop">8449</data>
+      <data key="v_upop">211</data>
+      <data key="v_cinc">0.0015724</data>
+      <data key="v_version">2011</data>
+      <data key="v_irstlog">0</data>
+      <data key="v_cincResized">0.00409624775473573</data>
+      <data key="v_StateNme">Afghanistan</data>
+      <data key="v_wealth">0</data>
+    </node>
+    <node id="n57">
+      <data key="v_name">710</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">228612</data>
+      <data key="v_milper">4775</data>
+      <data key="v_irst">48</data>
+      <data key="v_pec">27135</data>
+      <data key="v_tpop">548586</data>
+      <data key="v_upop">27040</data>
+      <data key="v_cinc">0.093496</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">0.416729555621179</data>
+      <data key="v_power">0.0389625465323577</data>
+      <data key="v_irstlog">3.87120101090789</data>
+      <data key="v_cincResized">0.243565746678181</data>
+      <data key="v_StateNme">China</data>
+      <data key="v_wealth">48</data>
+    </node>
+    <node id="n58">
+      <data key="v_name">712</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">-2147483648</data>
+      <data key="v_milper">80</data>
+      <data key="v_irst">0</data>
+      <data key="v_pec">29</data>
+      <data key="v_tpop">754</data>
+      <data key="v_upop">0</data>
+      <data key="v_cinc">0.0004061</data>
+      <data key="v_version">2011</data>
+      <data key="v_irstlog">0</data>
+      <data key="v_cincResized">0.00105792814372817</data>
+      <data key="v_StateNme">Mongolia</data>
+      <data key="v_wealth">0</data>
+    </node>
+    <node id="n59">
+      <data key="v_name">740</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">4002481</data>
+      <data key="v_milper">6095</data>
+      <data key="v_irst">2082</data>
+      <data key="v_pec">34266</data>
+      <data key="v_tpop">72147</data>
+      <data key="v_upop">22004</data>
+      <data key="v_cinc">0.0528761</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">55.4767488599665</data>
+      <data key="v_power">2.93339412039447</data>
+      <data key="v_irstlog">7.64108424917491</data>
+      <data key="v_cincResized">0.137747141887676</data>
+      <data key="v_StateNme">Japan</data>
+      <data key="v_wealth">2082</data>
+    </node>
+    <node id="n60">
+      <data key="v_name">790</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">-2147483648</data>
+      <data key="v_milper">20</data>
+      <data key="v_irst">0</data>
+      <data key="v_pec">0</data>
+      <data key="v_tpop">7110</data>
+      <data key="v_upop">0</data>
+      <data key="v_cinc">0.0009577</data>
+      <data key="v_version">2011</data>
+      <data key="v_irstlog">0</data>
+      <data key="v_cincResized">0.00249489727468228</data>
+      <data key="v_StateNme">Nepal</data>
+      <data key="v_wealth">0</data>
+    </node>
+    <node id="n61">
+      <data key="v_name">800</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">-2147483648</data>
+      <data key="v_milper">-2147483648</data>
+      <data key="v_irst">0</data>
+      <data key="v_pec">1</data>
+      <data key="v_tpop">17284</data>
+      <data key="v_upop">1629</data>
+      <data key="v_cinc">0.0043896</data>
+      <data key="v_version">2011</data>
+      <data key="v_irstlog">0</data>
+      <data key="v_cincResized">0.0114353148970923</data>
+      <data key="v_StateNme">Thailand</data>
+      <data key="v_wealth">0</data>
+    </node>
+    <node id="n62">
+      <data key="v_name">900</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">1484291</data>
+      <data key="v_milper">596</data>
+      <data key="v_irst">1413</data>
+      <data key="v_pec">19003</data>
+      <data key="v_tpop">7392</data>
+      <data key="v_upop">3678</data>
+      <data key="v_cinc">0.0104784</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">200.796942640693</data>
+      <data key="v_power">2.10403068376623</data>
+      <data key="v_irstlog">7.25347038268453</data>
+      <data key="v_cincResized">0.0272972033027365</data>
+      <data key="v_StateNme">Australia</data>
+      <data key="v_wealth">1413</data>
+    </node>
+    <node id="n63">
+      <data key="v_name">920</data>
+      <data key="v_year">1945</data>
+      <data key="v_milex">429590</data>
+      <data key="v_milper">-2147483648</data>
+      <data key="v_irst">0</data>
+      <data key="v_pec">2221</data>
+      <data key="v_tpop">1728</data>
+      <data key="v_upop">360</data>
+      <data key="v_cinc">0.0013357</data>
+      <data key="v_version">2011</data>
+      <data key="v_milex_percap">248.605324074074</data>
+      <data key="v_power">0.332062131365741</data>
+      <data key="v_irstlog">0</data>
+      <data key="v_cincResized">0.00347962231366098</data>
+      <data key="v_StateNme">New Zealand</data>
+      <data key="v_wealth">0</data>
+    </node>
+    <edge source="n22" target="n30">
+      <data key="e_AllianceLevel">1</data>
+      <data key="e_YearsAllied">129</data>
+    </edge>
+    <edge source="n30" target="n22">
+      <data key="e_AllianceLevel">1</data>
+      <data key="e_YearsAllied">129</data>
+    </edge>
+    <edge source="n22" target="n52">
+      <data key="e_AllianceLevel">0.10077519379845</data>
+      <data key="e_YearsAllied">13</data>
+    </edge>
+    <edge source="n52" target="n22">
+      <data key="e_AllianceLevel">0.10077519379845</data>
+      <data key="e_YearsAllied">13</data>
+    </edge>
+    <edge source="n34" target="n41">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n41" target="n34">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n41" target="n58">
+      <data key="e_AllianceLevel">0.0697674418604651</data>
+      <data key="e_YearsAllied">9</data>
+    </edge>
+    <edge source="n58" target="n41">
+      <data key="e_AllianceLevel">0.0697674418604651</data>
+      <data key="e_YearsAllied">9</data>
+    </edge>
+    <edge source="n22" target="n53">
+      <data key="e_AllianceLevel">0.062015503875969</data>
+      <data key="e_YearsAllied">8</data>
+    </edge>
+    <edge source="n22" target="n51">
+      <data key="e_AllianceLevel">0.0465116279069767</data>
+      <data key="e_YearsAllied">6</data>
+    </edge>
+    <edge source="n51" target="n22">
+      <data key="e_AllianceLevel">0.0465116279069767</data>
+      <data key="e_YearsAllied">6</data>
+    </edge>
+    <edge source="n22" target="n41">
+      <data key="e_AllianceLevel">0.0310077519379845</data>
+      <data key="e_YearsAllied">4</data>
+    </edge>
+    <edge source="n41" target="n22">
+      <data key="e_AllianceLevel">0.0310077519379845</data>
+      <data key="e_YearsAllied">4</data>
+    </edge>
+    <edge source="n59" target="n61">
+      <data key="e_AllianceLevel">0.0310077519379845</data>
+      <data key="e_YearsAllied">4</data>
+    </edge>
+    <edge source="n61" target="n59">
+      <data key="e_AllianceLevel">0.0310077519379845</data>
+      <data key="e_YearsAllied">4</data>
+    </edge>
+    <edge source="n22" target="n41">
+      <data key="e_AllianceLevel">0.0232558139534884</data>
+      <data key="e_YearsAllied">3</data>
+    </edge>
+    <edge source="n22" target="n50">
+      <data key="e_AllianceLevel">0.0232558139534884</data>
+      <data key="e_YearsAllied">3</data>
+    </edge>
+    <edge source="n41" target="n22">
+      <data key="e_AllianceLevel">0.0232558139534884</data>
+      <data key="e_YearsAllied">3</data>
+    </edge>
+    <edge source="n41" target="n50">
+      <data key="e_AllianceLevel">0.0232558139534884</data>
+      <data key="e_YearsAllied">3</data>
+    </edge>
+    <edge source="n50" target="n22">
+      <data key="e_AllianceLevel">0.0232558139534884</data>
+      <data key="e_YearsAllied">3</data>
+    </edge>
+    <edge source="n50" target="n41">
+      <data key="e_AllianceLevel">0.0232558139534884</data>
+      <data key="e_YearsAllied">3</data>
+    </edge>
+    <edge source="n62" target="n63">
+      <data key="e_AllianceLevel">0.00775193798449612</data>
+      <data key="e_YearsAllied">1</data>
+    </edge>
+    <edge source="n63" target="n62">
+      <data key="e_AllianceLevel">0.00775193798449612</data>
+      <data key="e_YearsAllied">1</data>
+    </edge>
+    <edge source="n27" target="n41">
+      <data key="e_AllianceLevel">0.00775193798449612</data>
+      <data key="e_YearsAllied">1</data>
+    </edge>
+    <edge source="n41" target="n27">
+      <data key="e_AllianceLevel">0.00775193798449612</data>
+      <data key="e_YearsAllied">1</data>
+    </edge>
+    <edge source="n0" target="n2">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n0" target="n3">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n0" target="n4">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n0" target="n5">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n0" target="n6">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n0" target="n7">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n0" target="n9">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n0" target="n10">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n0" target="n11">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n0" target="n12">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n0" target="n13">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n0" target="n14">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n0" target="n15">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n0" target="n16">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n0" target="n17">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n0" target="n18">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n0" target="n19">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n0" target="n20">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n0" target="n21">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n2" target="n0">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n2" target="n3">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n2" target="n4">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n2" target="n5">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n2" target="n6">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n2" target="n7">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n2" target="n9">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n2" target="n10">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n2" target="n11">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n2" target="n12">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n2" target="n13">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n2" target="n14">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n2" target="n15">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n2" target="n16">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n2" target="n17">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n2" target="n18">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n2" target="n19">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n2" target="n20">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n2" target="n21">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n3" target="n0">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n3" target="n2">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n3" target="n4">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n3" target="n5">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n3" target="n6">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n3" target="n7">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n3" target="n9">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n3" target="n10">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n3" target="n11">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n3" target="n12">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n3" target="n13">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n3" target="n14">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n3" target="n15">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n3" target="n16">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n3" target="n17">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n3" target="n18">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n3" target="n19">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n3" target="n20">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n3" target="n21">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n4" target="n0">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n4" target="n2">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n4" target="n3">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n4" target="n5">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n4" target="n6">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n4" target="n7">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n4" target="n9">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n4" target="n10">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n4" target="n11">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n4" target="n12">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n4" target="n13">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n4" target="n14">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n4" target="n15">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n4" target="n16">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n4" target="n17">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n4" target="n18">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n4" target="n19">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n4" target="n20">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n4" target="n21">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n5" target="n0">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n5" target="n2">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n5" target="n3">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n5" target="n4">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n5" target="n6">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n5" target="n7">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n5" target="n9">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n5" target="n10">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n5" target="n11">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n5" target="n12">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n5" target="n13">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n5" target="n14">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n5" target="n15">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n5" target="n16">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n5" target="n17">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n5" target="n18">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n5" target="n19">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n5" target="n20">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n5" target="n21">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n6" target="n0">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n6" target="n2">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n6" target="n3">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n6" target="n4">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n6" target="n5">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n6" target="n7">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n6" target="n9">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n6" target="n10">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n6" target="n11">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n6" target="n12">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n6" target="n13">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n6" target="n14">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n6" target="n15">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n6" target="n16">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n6" target="n17">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n6" target="n18">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n6" target="n19">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n6" target="n20">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n6" target="n21">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n7" target="n0">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n7" target="n2">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n7" target="n3">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n7" target="n4">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n7" target="n5">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n7" target="n6">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n7" target="n9">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n7" target="n10">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n7" target="n11">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n7" target="n12">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n7" target="n13">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n7" target="n14">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n7" target="n15">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n7" target="n16">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n7" target="n17">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n7" target="n18">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n7" target="n19">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n7" target="n20">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n7" target="n21">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n9" target="n0">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n9" target="n2">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n9" target="n3">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n9" target="n4">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n9" target="n5">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n9" target="n6">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n9" target="n7">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n9" target="n10">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n9" target="n11">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n9" target="n12">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n9" target="n13">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n9" target="n14">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n9" target="n15">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n9" target="n16">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n9" target="n17">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n9" target="n18">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n9" target="n19">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n9" target="n20">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n9" target="n21">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n10" target="n0">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n10" target="n2">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n10" target="n3">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n10" target="n4">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n10" target="n5">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n10" target="n6">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n10" target="n7">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n10" target="n9">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n10" target="n11">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n10" target="n12">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n10" target="n13">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n10" target="n14">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n10" target="n15">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n10" target="n16">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n10" target="n17">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n10" target="n18">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n10" target="n19">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n10" target="n20">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n10" target="n21">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n11" target="n0">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n11" target="n2">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n11" target="n3">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n11" target="n4">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n11" target="n5">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n11" target="n6">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n11" target="n7">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n11" target="n9">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n11" target="n10">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n11" target="n12">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n11" target="n13">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n11" target="n14">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n11" target="n15">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n11" target="n16">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n11" target="n17">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n11" target="n18">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n11" target="n19">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n11" target="n20">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n11" target="n21">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n12" target="n0">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n12" target="n2">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n12" target="n3">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n12" target="n4">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n12" target="n5">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n12" target="n6">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n12" target="n7">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n12" target="n9">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n12" target="n10">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n12" target="n11">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n12" target="n13">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n12" target="n14">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n12" target="n15">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n12" target="n16">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n12" target="n17">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n12" target="n18">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n12" target="n19">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n12" target="n20">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n12" target="n21">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n13" target="n0">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n13" target="n2">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n13" target="n3">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n13" target="n4">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n13" target="n5">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n13" target="n6">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n13" target="n7">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n13" target="n9">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n13" target="n10">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n13" target="n11">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n13" target="n12">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n13" target="n14">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n13" target="n15">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n13" target="n16">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n13" target="n17">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n13" target="n18">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n13" target="n19">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n13" target="n20">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n13" target="n21">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n14" target="n0">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n14" target="n2">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n14" target="n3">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n14" target="n4">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n14" target="n5">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n14" target="n6">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n14" target="n7">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n14" target="n9">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n14" target="n10">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n14" target="n11">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n14" target="n12">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n14" target="n13">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n14" target="n15">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n14" target="n16">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n14" target="n17">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n14" target="n18">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n14" target="n19">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n14" target="n20">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n14" target="n21">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n15" target="n0">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n15" target="n2">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n15" target="n3">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n15" target="n4">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n15" target="n5">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n15" target="n6">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n15" target="n7">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n15" target="n9">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n15" target="n10">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n15" target="n11">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n15" target="n12">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n15" target="n13">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n15" target="n14">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n15" target="n16">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n15" target="n17">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n15" target="n18">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n15" target="n19">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n15" target="n20">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n15" target="n21">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n16" target="n0">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n16" target="n2">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n16" target="n3">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n16" target="n4">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n16" target="n5">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n16" target="n6">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n16" target="n7">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n16" target="n9">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n16" target="n10">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n16" target="n11">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n16" target="n12">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n16" target="n13">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n16" target="n14">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n16" target="n15">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n16" target="n17">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n16" target="n18">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n16" target="n19">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n16" target="n20">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n16" target="n21">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n17" target="n0">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n17" target="n2">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n17" target="n3">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n17" target="n4">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n17" target="n5">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n17" target="n6">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n17" target="n7">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n17" target="n9">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n17" target="n10">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n17" target="n11">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n17" target="n12">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n17" target="n13">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n17" target="n14">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n17" target="n15">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n17" target="n16">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n17" target="n18">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n17" target="n19">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n17" target="n20">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n17" target="n21">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n18" target="n0">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n18" target="n2">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n18" target="n3">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n18" target="n4">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n18" target="n5">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n18" target="n6">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n18" target="n7">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n18" target="n9">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n18" target="n10">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n18" target="n11">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n18" target="n12">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n18" target="n13">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n18" target="n14">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n18" target="n15">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n18" target="n16">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n18" target="n17">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n18" target="n19">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n18" target="n20">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n18" target="n21">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n19" target="n0">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n19" target="n2">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n19" target="n3">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n19" target="n4">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n19" target="n5">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n19" target="n6">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n19" target="n7">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n19" target="n9">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n19" target="n10">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n19" target="n11">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n19" target="n12">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n19" target="n13">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n19" target="n14">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n19" target="n15">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n19" target="n16">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n19" target="n17">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n19" target="n18">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n19" target="n20">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n19" target="n21">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n20" target="n0">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n20" target="n2">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n20" target="n3">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n20" target="n4">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n20" target="n5">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n20" target="n6">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n20" target="n7">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n20" target="n9">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n20" target="n10">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n20" target="n11">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n20" target="n12">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n20" target="n13">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n20" target="n14">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n20" target="n15">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n20" target="n16">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n20" target="n17">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n20" target="n18">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n20" target="n19">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n20" target="n21">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n21" target="n0">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n21" target="n2">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n21" target="n3">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n21" target="n4">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n21" target="n5">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n21" target="n6">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n21" target="n7">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n21" target="n9">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n21" target="n10">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n21" target="n11">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n21" target="n12">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n21" target="n13">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n21" target="n14">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n21" target="n15">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n21" target="n16">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n21" target="n17">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n21" target="n18">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n21" target="n19">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n21" target="n20">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n37" target="n41">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n41" target="n37">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n32" target="n41">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n41" target="n32">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n41" target="n57">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+    <edge source="n57" target="n41">
+      <data key="e_AllianceLevel">0</data>
+      <data key="e_YearsAllied">0</data>
+    </edge>
+  </graph>
+</graphml>
